@@ -1,3 +1,12 @@
+<script>
+import IconRiLayoutTopFill from '~icons/ri/layout-top-fill'
+export default {
+  name: 'DefaultLayout',
+  icon: IconRiLayoutTopFill,
+  title: '默认布局'
+}
+</script>
+
 <template>
   <div>
     <div class="default-layout">
@@ -16,6 +25,7 @@
               </template>
               <!-- right插槽 -->
               <template #right>
+                <SwitchLayout />
                 <GitHub />
               </template>
             </NavBar>

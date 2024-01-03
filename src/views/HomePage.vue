@@ -1,23 +1,11 @@
-<script setup>
-const handleClickMini = () => {
-  AMessage.info('hello lunaticsky, click mini AButton!')
-}
-</script>
 <template>
-  <div>hello lunaticsky, This is toolsdog home page!</div>
-  <a-space>
-    <a-button type="primary" size="mini" @click="handleClickMini">Mini</a-button>
-    <a-button type="primary" size="small">Small</a-button>
-    <a-button type="primary">Medium</a-button>
-    <a-button type="primary" size="large">Large</a-button>
-  </a-space>
-  <HelloWorld />
-  <div class="text-20px">哈哈哈</div>
-  <!-- ICON -->
-  <div class="icon-style bg-pink h-100px">
-    <icon-ep-alarm-clock class="text-20px" />
-    <icon-home-copy class="text-20px" />
-    <icon-home-download class="text-20px" />
+  <div class="w-full flex justify-center items-center flex-1">
+    <div class="w-full h-300px flex justify-center items-center">
+      <div
+        class="w-150px h-150px rounded-[50%] bg-[var(--color-fill-1)] flex justify-center items-center"
+      >
+        <icon-ri-hammer-fill class="text-52px" />
+      </div>
+    </div>
   </div>
 </template>
-<style scoped lang="scss"></style>
