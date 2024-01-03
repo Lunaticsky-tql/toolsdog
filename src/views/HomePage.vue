@@ -1,10 +1,10 @@
 <script setup>
 const handleClickMini = () => {
-  AMessage.info('hello isboyjc, click mini AButton!')
+  AMessage.info('hello lunaticsky, click mini AButton!')
 }
 </script>
 <template>
-  <div>hello isboyjc, This is toolsdog home page!</div>
+  <div>hello lunaticsky, This is toolsdog home page!</div>
   <a-space>
     <a-button type="primary" size="mini" @click="handleClickMini">Mini</a-button>
     <a-button type="primary" size="small">Small</a-button>
